@@ -1,0 +1,13 @@
+{% extends "login/index.html" %}
+{% block body %}
+this is user page
+{{users}}
+
+{% for user in users %}
+
+    {{user.uname}}
+    {{user.pswd}}
+
+
+{% endfor %}
+{% endblock %}
