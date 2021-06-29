@@ -1,0 +1,12 @@
+{% extends "Ajlatiapp/index.html" %}
+{% block body %}
+<h1> USER INFORMATION: </h1>
+{{users}}
+
+{% for user in users %}
+
+{{user.email}}
+
+
+{% endfor %}
+{% endblock %}
